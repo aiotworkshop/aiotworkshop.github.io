@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49857371-58c8-47fc-8f5e-032917f3e1c0" name="Default Changelist" comment="" />
+    <list default="true" id="49857371-58c8-47fc-8f5e-032917f3e1c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CFP.html" beforeDir="false" afterPath="$PROJECT_DIR$/CFP.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,10 +18,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CFP.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1123" />
+            <state relative-caret-position="156">
+              <caret line="181" column="73" selection-start-line="181" selection-start-column="73" selection-end-line="181" selection-end-column="73" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -32,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/organizers.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="901">
@@ -64,6 +68,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -72,10 +77,10 @@
         <option value="$PROJECT_DIR$/styles/speakers.css" />
         <option value="$PROJECT_DIR$/styles/unify-components.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/CFP.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/Sponsors.html" />
         <option value="$PROJECT_DIR$/organizers.html" />
+        <option value="$PROJECT_DIR$/CFP.html" />
       </list>
     </option>
   </component>
@@ -133,13 +138,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="organizers.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/aiotworkshop.github.io/organizers.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.CFP.html">
+    <configuration name="CFP.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/aiotworkshop.github.io/CFP.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="organizers.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/aiotworkshop.github.io/organizers.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.organizers.html" />
+        <item itemvalue="JavaScript Debug.CFP.html" />
       </list>
     </recent_temporary>
   </component>
@@ -158,10 +166,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5758000" />
+    <option name="totallyTimeSpent" value="7362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="652" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49616858" visible="true" weight="0.24980111" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -214,11 +223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CFP.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1123" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sponsors.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2751">
@@ -238,6 +242,13 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#7;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CFP.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="181" column="73" selection-start-line="181" selection-start-column="73" selection-end-line="181" selection-end-column="73" />
         </state>
       </provider>
     </entry>
