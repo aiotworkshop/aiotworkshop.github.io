@@ -21,8 +21,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CFP.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="201" column="163" selection-start-line="201" selection-start-column="163" selection-end-line="201" selection-end-column="163" />
+            <state relative-caret-position="-1627">
+              <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="304" column="18" lean-forward="true" selection-start-line="304" selection-start-column="18" selection-end-line="304" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -147,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Sponsors.html">
+  <component name="RunManager" selected="JavaScript Debug.CFP.html">
     <configuration name="CFP.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/aiotworkshop.github.io/CFP.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -159,8 +168,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.Sponsors.html" />
         <item itemvalue="JavaScript Debug.CFP.html" />
+        <item itemvalue="JavaScript Debug.Sponsors.html" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +188,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12934000" />
+    <option name="totallyTimeSpent" value="13621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
@@ -219,13 +228,6 @@
     <entry file="file://$PROJECT_DIR$/speakers.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -258,10 +260,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="304" column="18" lean-forward="true" selection-start-line="304" selection-start-column="18" selection-end-line="304" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CFP.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="201" column="163" selection-start-line="201" selection-start-column="163" selection-end-line="201" selection-end-column="163" />
+        <state relative-caret-position="-1627">
+          <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
         </state>
       </provider>
     </entry>
