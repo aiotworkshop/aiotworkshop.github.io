@@ -1,0 +1,4 @@
+.img-h200--cover {
+  object-fit: cover;
+  height: 200px;
+}
