@@ -71,7 +71,10 @@
   background: none;
 }
 
-.microsoft_sponsor_logo {
-  width: 50%;
-  margin-left: -20px;
+/* sponsor logos */
+.sponsor_image_microsoft {
+  height: 100px;
+}
+.sponsor_image_didi {
+  height: 230px;
 }
