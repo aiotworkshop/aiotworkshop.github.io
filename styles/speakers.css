@@ -841,6 +841,7 @@ section
 .speaker_content
 {
 	width: 100%;
+	padding: 0;
 	padding-left: 130px;
 	padding-right: 150px;
 	padding-top: 103px;
@@ -861,7 +862,7 @@ section
 }
 .speaker_text
 {
-	margin-top: 49px;
+	margin-top: 0px;
 }
 .speaker_button
 {
@@ -1018,3 +1019,18 @@ section
 	margin-top: 7px;
 }
 
+.org-img {
+	height: 190px;	
+}
+
+.org-divider {
+	margin-bottom: 20px;
+}
+
+figure {
+	padding: 5px 20px;
+}
+
+.organizer-h3 {
+	margin-bottom: 40px;
+}

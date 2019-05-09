@@ -47,8 +47,13 @@
 {
 	.speaker_content
 	{
+		padding-top: 0;
 		padding-left: 70px;
 		padding-right: 80px;
+	}
+
+	.speaker_text {
+		margin-top: 60px;
 	}
 }
 
@@ -170,15 +175,13 @@
 	{
 		height: 500px;
 	}
-	/* .speaker_content
+   .speaker_content
 	{
-		width: 100%;
-		min-height: auto;
 		padding-top: 0;
-		padding-left: 40px;
-		padding-right: 40px;
-		padding-bottom: 85px;
-	} */
+	}
+	.speaker_text {
+		margin-top: 60px;
+	}
 	.footer_col:not(:last-child)
 	{
 		margin-bottom: 60px;
