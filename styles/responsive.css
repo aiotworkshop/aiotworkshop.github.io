@@ -63,6 +63,12 @@
 		background: #f3f7f9;
 		margin-bottom: 48px;
 	}
+	
+    .sponsor_content
+	{
+		padding-left: 70px;
+		padding-right: 80px;
+	} 
 }
 
 /************
@@ -117,7 +123,6 @@
 ************/
 @media only screen and (min-width: 992px)
 {
-	
 }
 @media only screen and (max-width: 991px)
 {
@@ -186,6 +191,16 @@
 		top: 0px;
 		width: 100%;
 	}
+	
+	.sponsor_content
+	{
+		width: 100%;
+		padding-left: 60px;
+		padding-right: 60px;
+		padding-top: 60px;
+		padding-bottom: 76px;
+	}
+	
 	.footer_col:not(:last-child)
 	{
 		margin-bottom: 60px;
@@ -399,6 +414,15 @@
 		font-size: 13px;
 		margin-top: 3px;
 	}
+	
+	.sponsor_content
+	{
+		padding-left: 30px;
+		padding-right: 50px;
+		padding-top: 60px;
+		padding-bottom: 76px;
+	}
+	
 	.cta_title
 	{
 		font-size: 24px;
@@ -439,6 +463,13 @@
 
 @media only screen and (max-width: 480px)
 {
+
+	.sponsor_content
+	{
+		padding-left: 15px;
+		padding-right: 30px;
+	}
+
 	.home_date
 	{
 		font-size: 12px;

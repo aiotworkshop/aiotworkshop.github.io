@@ -170,15 +170,15 @@
 	{
 		height: 500px;
 	}
-	.speaker_content
+	/* .speaker_content
 	{
 		width: 100%;
 		min-height: auto;
-		padding-left: 130px;
-		padding-right: 150px;
-		padding-top: 80px;
+		padding-top: 0;
+		padding-left: 40px;
+		padding-right: 40px;
 		padding-bottom: 85px;
-	}
+	} */
 	.footer_col:not(:last-child)
 	{
 		margin-bottom: 60px;
@@ -327,12 +327,13 @@
 		height: 217px;
 	}
 	.home_content_container
-	{
+	{		
 		bottom: 70px;
 	}
 	.current_page
 	{
 		font-size: 24px;
+		margin-left: 15px;
 	}
 	.breadcrumbs ul li
 	{
@@ -340,11 +341,21 @@
 	}
 	.speaker_content
 	{
+		padding-top: 0;
 		padding-left: 30px;
-		padding-right: 50px;
-		padding-top: 60px;
+		padding-right: 50px;		
 		padding-bottom: 76px;
 	}
+	.speaker_text
+	{
+		margin-top: 40px;
+	}	
+
+	.speaker_text h1
+	{
+		font-size: 28px;
+	}
+
 	.speaker_col
 	{
 		height: 300px;
@@ -389,8 +400,9 @@
 
 @media only screen and (max-width: 480px)
 {
-	.speaker_content
+	/* .speaker_content
 	{
+		padding: 0;
 		padding-left: 15px;
 		padding-right: 30px;
 	}
@@ -400,8 +412,8 @@
 	}
 	.speaker_text
 	{
-		margin-top: 41px;
-	}
+		margin-top: 40px;
+	} */
 	.speaker_button
 	{
 		margin-top: 41px;
