@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="49857371-58c8-47fc-8f5e-032917f3e1c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CFP.html" beforeDir="false" afterPath="$PROJECT_DIR$/CFP.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizers.html" beforeDir="false" afterPath="$PROJECT_DIR$/organizers.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CFP.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="163" column="101" selection-start-line="163" selection-start-column="101" selection-end-line="163" selection-end-column="101" />
+            <state relative-caret-position="261">
+              <caret line="174" column="52" selection-start-line="174" selection-start-column="52" selection-end-line="174" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -46,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/organizers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+            <state relative-caret-position="116">
+              <caret line="347" column="95" lean-forward="true" selection-start-line="347" selection-start-column="95" selection-end-line="348" selection-end-column="99" />
             </state>
           </provider>
         </entry>
@@ -89,8 +89,8 @@
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/Sponsors.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/organizers.html" />
         <option value="$PROJECT_DIR$/CFP.html" />
+        <option value="$PROJECT_DIR$/organizers.html" />
       </list>
     </option>
   </component>
@@ -148,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.CFP.html">
+  <component name="RunManager" selected="JavaScript Debug.organizers.html">
     <configuration name="CFP.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/aiotworkshop.github.io/CFP.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -184,12 +184,13 @@
       <workItem from="1558022944872" duration="138000" />
       <workItem from="1558062843742" duration="1748000" />
       <workItem from="1558064818685" duration="1603000" />
-      <workItem from="1559261123633" duration="655000" />
+      <workItem from="1559261123633" duration="1343000" />
+      <workItem from="1561071338805" duration="261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27262000" />
+    <option name="totallyTimeSpent" value="28211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
@@ -240,6 +241,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CFP.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="174" column="52" selection-start-line="174" selection-start-column="52" selection-end-line="174" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -259,15 +267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/organizers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CFP.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="163" column="101" selection-start-line="163" selection-start-column="101" selection-end-line="163" selection-end-column="101" />
+        <state relative-caret-position="116">
+          <caret line="347" column="95" lean-forward="true" selection-start-line="347" selection-start-column="95" selection-end-line="348" selection-end-column="99" />
         </state>
       </provider>
     </entry>
