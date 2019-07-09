@@ -862,6 +862,14 @@ section
 {
 	margin-top: 0px;
 }
+
+.speaker_text h1,.speaker_text h2
+{
+	font-size: 28px;
+	font-weight: 500;
+}
+
+
 .speaker_button
 {
 	margin-top: 68px;
@@ -1018,7 +1026,8 @@ section
 }
 
 .org-img {
-	height: 190px;	
+	height: 190px;
+	margin: 0 10px 0 0;
 }
 
 .org-divider {
@@ -1031,4 +1040,49 @@ figure {
 
 .organizer-h3 {
 	margin-bottom: 40px;
+}
+
+.program
+{
+	width: 100%;
+	background: #FFFFFF;
+}
+
+.program_content
+{
+	width: 100%;
+	padding: 0;
+	padding-left: 130px;
+	padding-right: 150px;
+	padding-top: 103px;
+	padding-bottom: 114px;
+}
+
+.program_block
+{
+	padding-bottom: 30px;
+}
+
+.program_block h1
+{
+	font-size: 26px;
+	font-weight: 500;
+}
+
+.program_block h2
+{
+	font-size: 22px;
+	font-weight: 500;
+	color: #4c4c4c;
+}
+
+.program_block h5
+{
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.program_block_content
+{
+	margin-top: 20px;
 }

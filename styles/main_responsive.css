@@ -98,6 +98,10 @@
 	{
 		margin-bottom: 30px;
 	}
+	.logo_text
+	{
+		font-size: 28px;
+	}
 }
 
 /************
@@ -115,7 +119,10 @@
 
 @media only screen and (max-width: 1024px)
 {
-	
+	.logo_text
+	{
+		font-size: 24px;
+	}	
 }
 
 /************
@@ -152,7 +159,7 @@
 	}
 	.logo_text
 	{
-		font-size: 24px;
+		font-size: 18px;
 	}
 	.header_top_content
 	{
@@ -303,7 +310,7 @@
 	}
 	.header_top_content
 	{
-		height: 60px;
+		height: 140px;
 	}
 	.logo_image div
 	{
@@ -415,14 +422,6 @@
 		margin-top: 3px;
 	}
 	
-	.sponsor_content
-	{
-		padding-left: 30px;
-		padding-right: 50px;
-		padding-top: 60px;
-		padding-bottom: 76px;
-	}
-	
 	.cta_title
 	{
 		font-size: 24px;
@@ -446,6 +445,12 @@
 	{
 		margin-right: 22px;
 	}
+	.sponsor_content {
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;		
+		padding-bottom: 20px;
+	}
 }
 
 /************
@@ -463,13 +468,6 @@
 
 @media only screen and (max-width: 480px)
 {
-
-	.sponsor_content
-	{
-		padding-left: 15px;
-		padding-right: 30px;
-	}
-
 	.home_date
 	{
 		font-size: 12px;

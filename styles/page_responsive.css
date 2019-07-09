@@ -84,6 +84,10 @@
 	{
 		margin-bottom: 30px;
 	}
+	.logo_text
+	{
+		font-size: 28px;
+	}
 }
 
 /************
@@ -101,7 +105,10 @@
 
 @media only screen and (max-width: 1024px)
 {
-	
+	.logo_text
+	{
+		font-size: 24px;
+	}	
 }
 
 /************
@@ -129,6 +136,10 @@
 	{
 		top: 0;
 	}
+	.header_top_content
+	{
+		height: 140px;
+	}
 	.hamburger
 	{
 		display: block;
@@ -139,7 +150,7 @@
 	}
 	.logo_text
 	{
-		font-size: 24px;
+		font-size: 18px;
 	}
 	.header_top_content
 	{
@@ -262,7 +273,7 @@
 	}
 	.header_top_content
 	{
-		height: 60px;
+		height: 140px;
 	}
 	.logo_image div
 	{
@@ -331,7 +342,7 @@
 	}
 	.home_content_container
 	{		
-		bottom: 70px;
+		bottom: 30px;
 	}
 	.current_page
 	{
@@ -386,6 +397,12 @@
 	{
 		margin-right: 22px;
 	}
+	.program_content {
+		padding-top: 20px;
+		padding-left: 50px;
+		padding-right: 50px;		
+		padding-bottom: 20px;
+	}
 }
 
 /************
@@ -403,24 +420,7 @@
 
 @media only screen and (max-width: 480px)
 {
-	/* .speaker_content
-	{
-		padding: 0;
-		padding-left: 15px;
-		padding-right: 30px;
-	}
-	.speaker_title
-	{
-		font-size: 24px;
-	}
-	.speaker_text
-	{
-		margin-top: 40px;
-	} */
-	.speaker_button
-	{
-		margin-top: 41px;
-	}
+
 }
 
 /************
