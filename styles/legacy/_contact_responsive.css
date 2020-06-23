@@ -36,19 +36,7 @@
 
 @media only screen and (max-width: 1440px)
 {
-	.intro, .calendar
-	{
-		padding-left: 104px;
-		padding-right: 104px;
-	}
-	.calendar_item_time
-	{
-		margin-left: 44px;
-	}
-	.calendar_item_text
-	{
-		margin-left: 51px;
-	}
+	
 }
 
 /************
@@ -57,18 +45,7 @@
 
 @media only screen and (max-width: 1380px)
 {
-	.intro_item
-	{
-		width: calc((100% - 30px) / 2);
-		background: #f3f7f9;
-		margin-bottom: 48px;
-	}
 	
-    .sponsor_content
-	{
-		padding-left: 70px;
-		padding-right: 80px;
-	} 
 }
 
 /************
@@ -86,22 +63,7 @@
 
 @media only screen and (max-width: 1199px)
 {
-	.calendar_item_time
-	{
-		margin-left: 74px;
-	}
-	.calendar_item_text
-	{
-		margin-left: 111px;
-	}
-	.calendar_col:not(:last-child)
-	{
-		margin-bottom: 30px;
-	}
-	.logo_text
-	{
-		font-size: 28px;
-	}
+	
 }
 
 /************
@@ -119,10 +81,7 @@
 
 @media only screen and (max-width: 1024px)
 {
-	.logo_text
-	{
-		font-size: 24px;
-	}	
+	
 }
 
 /************
@@ -130,6 +89,7 @@
 ************/
 @media only screen and (min-width: 992px)
 {
+	
 }
 @media only screen and (max-width: 991px)
 {
@@ -159,7 +119,7 @@
 	}
 	.logo_text
 	{
-		font-size: 18px;
+		font-size: 24px;
 	}
 	.header_top_content
 	{
@@ -182,35 +142,29 @@
 		display: block;
 		margin-left: 0;
 	}
-	.intro,
-	.calendar
-	{
-		padding-left: 60px;
-		padding-right: 60px;
-	}
-	.pricing_col:not(:last-child)
-	{
-		margin-bottom: 30px;
-	}
-	.pricing_item_mid
-	{
-		left: 0px;
-		top: 0px;
-		width: 100%;
-	}
-	
-	.sponsor_content
+	.home
 	{
 		width: 100%;
-		padding-left: 60px;
-		padding-right: 60px;
-		padding-top: 60px;
-		padding-bottom: 76px;
+		height: 357px;
 	}
-	
+	.current_page
+	{
+		font-size: 48px;
+	}
+	.contact_info_container
+	{
+		margin-top: 80px;
+		max-width: 100%;
+	}
 	.footer_col:not(:last-child)
 	{
 		margin-bottom: 60px;
+	}
+	.footer_extra_content
+	{
+		height: auto;
+		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 	.footer_extra_links
 	{
@@ -255,38 +209,7 @@
 
 @media only screen and (max-width: 767px)
 {
-	.home_title
-	{
-		font-size: 36px;
-	}
-	.home_location
-	{
-		font-size: 24px;
-		margin-top: -2px;
-	}
-	.home_buttons
-	{
-		margin-top: 44px;
-	}
-	.intro,
-	.calendar
-	{
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	.intro_item
-	{
-		width: 100%;
-	}
-	.calendar_item_time
-	{
-		margin-left: 44px;
-	}
-	.calendar_item_text
-	{
-		margin-left: 51px;
-	}
-	.cta_title
+	.current_page
 	{
 		font-size: 36px;
 	}
@@ -304,7 +227,7 @@
 	}
 	.header_top_content
 	{
-		height: 140px;
+		height: 60px;
 	}
 	.logo_image div
 	{
@@ -362,69 +285,103 @@
 		width: 165px;
 		height: 42px;
 	}
+	.button_2
+	{
+		height: 42px;
+	}
 	.button a
 	{
 		line-height: 42px;
 		font-size: 12px;
 	}
+	.button_2 a
+	{
+		line-height: 42px;
+		font-size: 12px;
+	}
+	.home
+	{
+		height: 217px;
+	}
 	.home_content_container
 	{
-		top: 35%;
+		bottom: 70px;
 	}
-	.intro,
-	.calendar
-	{
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	.calendar_item
-	{
-		padding-left: 20px;
-	}
-	.calendar_item_image
-	{
-		width: 73px;
-		height: 73px;
-	}
-	.calendar_item_time
-	{
-		margin-left: 25px;
-	}
-	.calendar_item_text
-	{
-		margin-left: 30px;
-	}
-	.calendar_item_time div:first-child
+	.current_page
 	{
 		font-size: 24px;
 	}
-	.calendar_item_time div:last-child
-	{
-		font-size: 13px;
-	}
-	.calendar_item_text div:first-child
-	{
-		font-size: 16px;
-	}
-	.calendar_item_text div:nth-child(2)
+	.breadcrumbs ul li
 	{
 		font-size: 14px;
 	}
-	.calendar_item_text div:last-child
+	.contact_form_container
 	{
-		font-size: 13px;
-		margin-top: 3px;
+		padding-left: 29px;
+		padding-right: 28px;
 	}
-	
-	.cta_title
+	.contact_input
+	{
+		height: 43px;
+	}
+	.contact_input::-webkit-input-placeholder
+	{
+		font-size: 13px !important;
+	}
+	.contact_input:-moz-placeholder
+	{
+		font-size: 13px !important;
+	}
+	.contact_input::-moz-placeholder
+	{
+		font-size: 13px !important;
+	} 
+	.contact_input:-ms-input-placeholder
+	{ 
+		font-size: 13px !important;
+	}
+	.contact_input::input-placeholder
+	{
+		font-size: 13px !important;
+	}
+	.contact_form_title
 	{
 		font-size: 24px;
-		float: none;
-		text-align: center;
 	}
-	.cta_button {
-		float: none;
-		text-align: center;
+	.contact_info_container
+	{
+		padding-left: 15px;
+		padding-bottom: 62px;
+	}
+	.contact_info_icon
+	{
+		width: 20px;
+		height: 20px;
+	}
+	.contact_info_list_container
+	{
+		margin-top: 53px;
+	}
+	.contact_info_list
+	{
+		padding-right: 20px;
+		padding-left: 0px;
+	}
+	.contact_info_container .logo_text
+	{
+		font-size: 14px;
+	}
+	.contact_info_container .logo_sub
+	{
+		font-size: 9px;
+	}
+	.contact_info_container .logo_image div
+	{
+		width: 39px;
+	}
+	.contact_info_text
+	{
+		font-size: 13px;
 	}
 	.footer_social_list
 	{
@@ -445,12 +402,6 @@
 	{
 		margin-right: 22px;
 	}
-	.sponsor_content {
-		padding-top: 20px;
-		padding-left: 20px;
-		padding-right: 20px;		
-		padding-bottom: 20px;
-	}
 }
 
 /************
@@ -468,30 +419,7 @@
 
 @media only screen and (max-width: 480px)
 {
-	.home_date
-	{
-		font-size: 12px;
-	}
-	.home_title
-	{
-		font-size: 24px;
-		margin-top: 3px;
-	}
-	.home_location
-	{
-		font-size: 16px;
-		margin-top: 4px;
-	}
-	.home_text
-	{
-		display: none;
-		font-size: 13px;
-		margin-top: 3px;
-	}
-	.home_buttons
-	{
-		margin-top: 34px;
-	}
+	
 }
 
 /************

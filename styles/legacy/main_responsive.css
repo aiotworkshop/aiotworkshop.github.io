@@ -212,6 +212,12 @@
 	{
 		margin-bottom: 60px;
 	}
+	.footer_extra_content
+	{
+		height: auto;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 	.footer_extra_links
 	{
 		margin-top: 10px;
@@ -419,12 +425,6 @@
 	.cta_title
 	{
 		font-size: 24px;
-		float: none;
-		text-align: center;
-	}
-	.cta_button {
-		float: none;
-		text-align: center;
 	}
 	.footer_social_list
 	{

@@ -36,19 +36,7 @@
 
 @media only screen and (max-width: 1440px)
 {
-	.intro, .calendar
-	{
-		padding-left: 104px;
-		padding-right: 104px;
-	}
-	.calendar_item_time
-	{
-		margin-left: 44px;
-	}
-	.calendar_item_text
-	{
-		margin-left: 51px;
-	}
+	
 }
 
 /************
@@ -57,18 +45,16 @@
 
 @media only screen and (max-width: 1380px)
 {
-	.intro_item
+	.speaker_content
 	{
-		width: calc((100% - 30px) / 2);
-		background: #f3f7f9;
-		margin-bottom: 48px;
-	}
-	
-    .sponsor_content
-	{
+		padding-top: 0;
 		padding-left: 70px;
 		padding-right: 80px;
-	} 
+	}
+
+	.speaker_text {
+		margin-top: 60px;
+	}
 }
 
 /************
@@ -130,6 +116,7 @@
 ************/
 @media only screen and (min-width: 992px)
 {
+	
 }
 @media only screen and (max-width: 991px)
 {
@@ -148,6 +135,10 @@
 	.header.scrolled
 	{
 		top: 0;
+	}
+	.header_top_content
+	{
+		height: 140px;
 	}
 	.hamburger
 	{
@@ -182,35 +173,35 @@
 		display: block;
 		margin-left: 0;
 	}
-	.intro,
-	.calendar
-	{
-		padding-left: 60px;
-		padding-right: 60px;
-	}
-	.pricing_col:not(:last-child)
-	{
-		margin-bottom: 30px;
-	}
-	.pricing_item_mid
-	{
-		left: 0px;
-		top: 0px;
-		width: 100%;
-	}
-	
-	.sponsor_content
+	.home
 	{
 		width: 100%;
-		padding-left: 60px;
-		padding-right: 60px;
-		padding-top: 60px;
-		padding-bottom: 76px;
+		height: 357px;
 	}
-	
+	.current_page
+	{
+		font-size: 48px;
+	}
+	.speaker_col
+	{
+		height: 500px;
+	}
+   .speaker_content
+	{
+		padding-top: 0;
+	}
+	.speaker_text {
+		margin-top: 60px;
+	}
 	.footer_col:not(:last-child)
 	{
 		margin-bottom: 60px;
+	}
+	.footer_extra_content
+	{
+		height: auto;
+		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 	.footer_extra_links
 	{
@@ -255,36 +246,14 @@
 
 @media only screen and (max-width: 767px)
 {
-	.home_title
+	.current_page
 	{
 		font-size: 36px;
 	}
-	.home_location
+	.speaker_content
 	{
-		font-size: 24px;
-		margin-top: -2px;
-	}
-	.home_buttons
-	{
-		margin-top: 44px;
-	}
-	.intro,
-	.calendar
-	{
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	.intro_item
-	{
-		width: 100%;
-	}
-	.calendar_item_time
-	{
-		margin-left: 44px;
-	}
-	.calendar_item_text
-	{
-		margin-left: 51px;
+		padding-left: 80px;
+		padding-right: 100px;
 	}
 	.cta_title
 	{
@@ -367,64 +336,47 @@
 		line-height: 42px;
 		font-size: 12px;
 	}
+	.home
+	{
+		height: 217px;
+	}
 	.home_content_container
-	{
-		top: 35%;
+	{		
+		bottom: 30px;
 	}
-	.intro,
-	.calendar
-	{
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	.calendar_item
-	{
-		padding-left: 20px;
-	}
-	.calendar_item_image
-	{
-		width: 73px;
-		height: 73px;
-	}
-	.calendar_item_time
-	{
-		margin-left: 25px;
-	}
-	.calendar_item_text
-	{
-		margin-left: 30px;
-	}
-	.calendar_item_time div:first-child
+	.current_page
 	{
 		font-size: 24px;
+		margin-left: 15px;
 	}
-	.calendar_item_time div:last-child
-	{
-		font-size: 13px;
-	}
-	.calendar_item_text div:first-child
-	{
-		font-size: 16px;
-	}
-	.calendar_item_text div:nth-child(2)
+	.breadcrumbs ul li
 	{
 		font-size: 14px;
 	}
-	.calendar_item_text div:last-child
+	.speaker_content
 	{
-		font-size: 13px;
-		margin-top: 3px;
+		padding-top: 0;
+		padding-left: 30px;
+		padding-right: 50px;		
+		padding-bottom: 76px;
 	}
-	
+	.speaker_text
+	{
+		margin-top: 40px;
+	}	
+
+	.speaker_text h1
+	{
+		font-size: 28px;
+	}
+
+	.speaker_col
+	{
+		height: 300px;
+	}
 	.cta_title
 	{
 		font-size: 24px;
-		float: none;
-		text-align: center;
-	}
-	.cta_button {
-		float: none;
-		text-align: center;
 	}
 	.footer_social_list
 	{
@@ -445,10 +397,10 @@
 	{
 		margin-right: 22px;
 	}
-	.sponsor_content {
+	.program_content {
 		padding-top: 20px;
-		padding-left: 20px;
-		padding-right: 20px;		
+		padding-left: 50px;
+		padding-right: 50px;		
 		padding-bottom: 20px;
 	}
 }
@@ -468,30 +420,7 @@
 
 @media only screen and (max-width: 480px)
 {
-	.home_date
-	{
-		font-size: 12px;
-	}
-	.home_title
-	{
-		font-size: 24px;
-		margin-top: 3px;
-	}
-	.home_location
-	{
-		font-size: 16px;
-		margin-top: 4px;
-	}
-	.home_text
-	{
-		display: none;
-		font-size: 13px;
-		margin-top: 3px;
-	}
-	.home_buttons
-	{
-		margin-top: 34px;
-	}
+
 }
 
 /************

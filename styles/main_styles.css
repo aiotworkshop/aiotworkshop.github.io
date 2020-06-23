@@ -24,7 +24,31 @@
 1. Fonts
 ***********/
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,600,700,800,900');
+@font-face {
+	font-family: segoe-ui;
+	src: url("fonts/segoe-ui.woff") format("woff");
+}
+
+@font-face {
+	font-family: segoe-ui-bold;
+	src: url("fonts/segoe-ui-bold.woff") format("woff");
+}
+
+@font-face {
+	font-family: segoe-ui-semibold;
+	src: url("fonts/segoe-ui-semibold.woff") format("woff");
+}
+
+@font-face {
+	font-family: segoe-ui-light;
+	src: url("fonts/segoe-ui-light.woff") format("woff");
+}
+
+@font-face {
+	font-family: segoe-ui-semilight;
+	src: url("fonts/segoe-ui-semilight.woff") format("woff");
+}
+
 
 /*********************************
 2. Body and some general stuff
@@ -40,7 +64,7 @@
 }
 body
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: segoe-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
@@ -61,7 +85,7 @@ ul
 }
 p
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: segoe-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 14px;
 	line-height: 2;
 	font-weight: 400;
@@ -131,7 +155,7 @@ h4{font-size: 18px;}
 h5{font-size: 14px;}
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: segoe-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -231,13 +255,13 @@ section
 }
 .parallax-window
 {
-    min-height: 400px;
+    /*min-height: 400px;*/
     background: transparent;
 }
 .parallax_background
 {
 	position: absolute;
-	top: 0;
+	top: 0px;
 	left: 0;
 	width: 100%;
 	height: 100%;
@@ -254,8 +278,8 @@ section
 }
 .button
 {
-	width: 205px;
-	height: 52px;
+	width: 150px;
+	height: 40px;
 	text-align: center;
 	overflow: hidden;
 	margin-bottom: 5px;
@@ -283,7 +307,7 @@ section
 {
 	display: block;
 	position: relative;
-	line-height: 52px;
+	line-height: 40px;
 	font-size: 14px;
 	font-weight: 500;
 	color: #FFFFFF;
@@ -491,7 +515,7 @@ section
 {
 	position: absolute;
 	left: 0;
-	top: 42%;
+	top: 30%;
 	width: 100%;
 }
 .home_content
@@ -500,13 +524,15 @@ section
 }
 .home_date
 {
-	font-size: 18px;
-	font-weight: 700;
+	font-size: 24px;
+	font-family: segoe-ui-semibold, Tahoma, Geneva, Verdana, sans-serif;
 	color: #FFFFFF;
+	margin-top: 30px;
+	margin-bottom: 40px;
 }
 .home_title
 {
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: 500;
 	color: #FFFFFF;
 	margin-top: -5px;
@@ -514,10 +540,9 @@ section
 }
 .home_location
 {
-	font-size: 36px;
+	font-size: 24px;
 	font-weight: 500;
 	color: #FFFFFF;
-	margin-top: -13px;
 }
 .home_text
 {
@@ -556,7 +581,7 @@ section
 .header.scrolled
 {
 	position: fixed;
-	top: -127px;
+	top: -90px;
 	left: 0;
 }
 .header_top
@@ -566,21 +591,17 @@ section
 }
 .header_top_content
 {
-	height: 127px;
+	height: 90px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.logo_image div
-{
-	width: 59px;
-	height: 46px;
-}
 .logo_image div img
 {
-	max-width: 100%;
+	width: 50px;
+	margin-top: 8px;
 }
 .logo_content
 {
@@ -588,10 +609,12 @@ section
 }
 .logo_text
 {
+	font-family: segoe-ui-semibold,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #4867c0;
-	font-size: 34px;
+	font-size: 24px;
 	font-weight: 500;
 	text-align: left;
+	/*line-height: 34px;*/
 }
 .logo_text_not_ie
 {
@@ -671,43 +694,19 @@ section
 }
 .header_nav_content
 {
-	height: 82px;
-}
-.main_nav
-{
-	height: 100%;
+	height: 64px;
 }
 .main_nav ul
 {
-	height: 100%;
+	/*height: 45px;*/
 }
 .main_nav ul li
 {
 	display: inline-block;
 	position: relative;
-	height: 100%;
+	height: 26px;
 }
-.main_nav ul li::after
-{
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	content: '';
-	background-color: #4867c0;
-	background-image: linear-gradient(to right, #4867c0, #329fec);
-	background: #4867c0;
-	background: linear-gradient(to right, #4867c0, #329fec);
-	opacity: 0;
-	z-index: 0;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
+
 .main_nav ul li:not(:last-child)
 {
 	margin-right: 26px;
@@ -722,12 +721,9 @@ section
 	display: block;
 	position: relative;
 	height: 100%;
-	line-height: 82px;
 	font-size: 16px;
 	font-weight: 500;
 	color: #4c4c4c;
-	padding-left: 11px;
-	padding-right: 8px;
 	z-index: 1;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -738,7 +734,15 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color: #FFFFFF;
+	font-weight: bold;
+	border-bottom: solid 2px #000;
+}
+.main_nav ul li select {
+	padding: 10px;
+	cursor: pointer;
+}
+.main_nav ul li select option {
+	color: #000;
 }
 .search_container
 {
@@ -814,7 +818,11 @@ section
 {
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 26px;
+}
+.hero_button
+{
+	display: inline-block;
+	vertical-align: middle;
 }
 
 /*********************************
@@ -1194,21 +1202,29 @@ section
 
 .cta
 {
+	position: relative;
 	width: 100%;
-	padding-top: 105px;
-	padding-bottom: 101px;
+	left: 0;
+	/*bottom: -645px;*/
+	min-height: 66px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: linear-gradient(180deg, #476BC3 0%, #4081D5 44.79%, #339CEC 100%);
 }
 .cta_title
 {
-	font-size: 48px;
+	font-size: 18px;
 	color: #FFFFFF;
-	font-weight: 400;
+	margin-top: 10px;
+	float: left;
 }
 .cta_button
 {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 27px;
+	margin-top: 3px;
+	border: solid 1px #fff;
+	float: right;
 }
 
 /*********************************
@@ -1218,7 +1234,10 @@ section
 .footer
 {
 	width: 100%;
-	background: #0c081d;	
+	background: #fff;	
+	position: relative;
+	left: 0;
+  	/*bottom: -685px;*/
 }
 .footer_content
 {
@@ -1251,19 +1270,19 @@ section
 }
 .footer_links ul li a
 {
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 600;
 	color: #bbbbbb;
 }
 .footer_extra
 {
 	width: 100%;
-	background: #050210;
+	background: #fff;
 }
 .footer_extra_content
 {
 	width: 100%;
-	height: 134px;
+	height: 66px;
 }
 .footer_social_title
 {
@@ -1331,6 +1350,6 @@ section
 .copyright
 {
 	font-weight: 500;
-	color: #bbbbbb;
+	color: #4C69B9;
 	margin-top: 7px;
 }

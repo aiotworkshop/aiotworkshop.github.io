@@ -10,9 +10,8 @@
 3. Menu
 4. Home
 	4.1 Header
-5. Speakers
-6. Call to action
-7. Footer
+5. Contact
+6. Footer
 
 
 
@@ -22,30 +21,7 @@
 1. Fonts
 ***********/
 
-@font-face {
-	font-family: segoe-ui;
-	src: url("fonts/segoe-ui.woff") format("woff");
-}
-
-@font-face {
-	font-family: segoe-ui-bold;
-	src: url("fonts/segoe-ui-bold.woff") format("woff");
-}
-
-@font-face {
-	font-family: segoe-ui-semibold;
-	src: url("fonts/segoe-ui-semibold.woff") format("woff");
-}
-
-@font-face {
-	font-family: segoe-ui-light;
-	src: url("fonts/segoe-ui-light.woff") format("woff");
-}
-
-@font-face {
-	font-family: segoe-ui-semilight;
-	src: url("fonts/segoe-ui-semilight.woff") format("woff");
-}
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,600,700,800,900');
 
 /*********************************
 2. Body and some general stuff
@@ -61,11 +37,11 @@
 }
 body
 {
-	font-family: segoe-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
-	color: #000;
+	color: #a5a5a5;
 }
 div
 {
@@ -82,10 +58,11 @@ ul
 }
 p
 {
-	font-family: segoe-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
+	line-height: 2;
 	font-weight: 400;
-	color: #000;
+	color: #929191;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -151,7 +128,7 @@ h4{font-size: 18px;}
 h5{font-size: 14px;}
 h1, h2, h3, h4, h5, h6
 {
-	font-family: segoe-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Raleway', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -251,8 +228,8 @@ section
 }
 .parallax-window
 {
-	min-height: 125px;
-    background: linear-gradient(180deg, #4867C1 0%, #4180D4 50.96%, #3698E9 106.35%);;
+    min-height: 400px;
+    background: transparent;
 }
 .parallax_background
 {
@@ -261,6 +238,17 @@ section
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+.background_image
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 .nopadding
 {
@@ -279,17 +267,36 @@ section
 }
 .button
 {
-	width: 150px;
-	height: 40px;
+	width: 205px;
+	height: 52px;
 	text-align: center;
 	overflow: hidden;
 	margin-bottom: 5px;
+}
+.button::before
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200%;
+	height: 100%;
+	content: '';
+	background-color: #4867c0;
+	background-image: linear-gradient(to right, #4867c0, #329fec, #4867c0);
+	background: #4867c0;
+	background: linear-gradient(to right, #4867c0, #329fec, #4867c0);
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
 }
 .button a
 {
 	display: block;
 	position: relative;
-	line-height: 40px;
+	line-height: 52px;
 	font-size: 14px;
 	font-weight: 500;
 	color: #FFFFFF;
@@ -298,6 +305,41 @@ section
 .button:hover::before
 {
 	left: -100%;
+}
+.button_2
+{
+	display: inline-block;
+	height: 52px;
+	background: #4c4c4c;
+	text-align: center;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.button_2 a
+{
+	display: block;
+	padding-left: 50px;
+	padding-right: 46px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #FFFFFF;
+	line-height: 52px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.button_2:hover
+{
+	background: #cecece;
+}
+.button_2:hover a
+{
+	color: #4c4c4c;
 }
 
 /*********************************
@@ -480,7 +522,7 @@ section
 .home
 {
 	width: 100%;
-	height: 335px;
+	height: 484px;
 }
 .home_background
 {
@@ -497,15 +539,15 @@ section
 {
 	position: absolute;
 	left: 0;
-	bottom: 50px;
+	bottom: 110px;
 	width: 100%;
 }
 .current_page
 {
-	font-size: 34px;
+	font-size: 60px;
 	font-weight: 500;
 	color: #FFFFFF;
-	line-height: 1.2;
+	line-height: 0.75;
 }
 .breadcrumbs
 {
@@ -575,10 +617,14 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
+.logo_image div
+{
+	width: 59px;
+	height: 46px;
+}
 .logo_image div img
 {
-	width: 50px;
-	margin-top: 8px;
+	max-width: 100%;
 }
 .logo_content
 {
@@ -586,12 +632,11 @@ section
 }
 .logo_text
 {
-	font-family: segoe-ui-semibold,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height: 0.94;
 	color: #4867c0;
-	font-size: 24px;
+	font-size: 34px;
 	font-weight: 500;
 	text-align: left;
-	/*line-height: 34px;*/
 }
 .logo_text_not_ie
 {
@@ -606,6 +651,7 @@ section
 }
 .logo_sub
 {
+	font-size: 12px;
 	font-weight: 500;
 	color: #4c4c4c;
 	margin-top: 5px;
@@ -671,21 +717,42 @@ section
 }
 .header_nav_content
 {
-	height: 64px;
+	height: 82px;
 }
 .main_nav
 {
-	/*height: 45px;*/
+	height: 100%;
 }
 .main_nav ul
 {
-	height: 26px;
+	height: 100%;
 }
 .main_nav ul li
 {
 	display: inline-block;
 	position: relative;
 	height: 100%;
+}
+.main_nav ul li::after
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	background-color: #4867c0;
+	background-image: linear-gradient(to right, #4867c0, #329fec);
+	background: #4867c0;
+	background: linear-gradient(to right, #4867c0, #329fec);
+	opacity: 0;
+	z-index: 0;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -700,9 +767,13 @@ section
 {
 	display: block;
 	position: relative;
+	height: 100%;
+	line-height: 82px;
 	font-size: 16px;
 	font-weight: 500;
 	color: #4c4c4c;
+	padding-left: 11px;
+	padding-right: 8px;
 	z-index: 1;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -713,15 +784,7 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	font-weight: bold;
-	border-bottom: solid 2px #000;
-}
-.main_nav ul li select {
-	padding: 10px;
-	cursor: pointer;
-}
-.main_nav ul li select option {
-	color: #000;
+	color: #FFFFFF;
 }
 .search_container
 {
@@ -798,116 +861,222 @@ section
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 26px;
-	background-color: none;
-	background-image: none;
-	background: none;
-	border: solid 1px #3C8CDE;
-}
-.header_button a
-{
-	color: #3C8CDE;
-}
-.header_button:hover
-{
-	background: #fff;
 }
 
 /*********************************
-5. Speakers
+5. Contact
 *********************************/
 
-.speakers
+.contact
 {
 	width: 100%;
 	background: #FFFFFF;
+	padding-top: 158px;
+	padding-bottom: 161px;
 }
-.speaker_container {
-	margin: 50px 0;
-}
-.speaker_image
+.contact_map_background
 {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
 }
-.speaker_title
+.contact_map
+{
+	width: 100%;
+	height: 100%;
+}
+.map
+{
+	width: 100%;
+	height: 100%;
+}
+.google_map
+{
+	width: 100%;
+	height: 100%;
+}
+.map_container
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#map
+{
+	width: 100%;
+	height: calc(100% + 30px);
+}
+.contact_form_container
+{
+	width: 100%;
+	background: rgba(3,9,32,0.86);
+	padding-top: 50px;
+	padding-left: 59px;
+	padding-right: 58px;
+	padding-bottom: 61px;
+}
+.contact_form_title
 {
 	font-size: 30px;
 	font-weight: 500;
-	color: #4c4c4c;
+	color: #FFFFFF;
 }
-.speaker_subtitle
+.contact_form
 {
-	font-size: 14px;
-	font-weight: 500;
-	color: #2b88cb;
-	margin-top: -3px;
+	margin-top: 33px;
 }
-.speaker_button
-{
-	margin-top: 68px;
-}
-
-/*********************************
-6. Call to action
-*********************************/
-
-.cta
+.contact_input
 {
 	width: 100%;
-	min-height: 66px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background: linear-gradient(180deg, #476BC3 0%, #4081D5 44.79%, #339CEC 100%);
+	height: 53px;
+	background: #FFFFFF;
+	border: none;
+	outline: none;
+	padding-left: 30px;
 }
-.cta_title
+.contact_form input:not(:last-child)
 {
-	font-size: 18px;
+	margin-bottom: 24px;
+}
+.contact_button
+{
+	display: inline-block;
+	position: relative;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin-top: 14px;
+}
+.contact_button span
+{
+	position: relative;
 	color: #FFFFFF;
-	margin-top: 10px;
-	float: left;
 }
-.cta_button
+.contact_textarea
 {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 3px;
-	border: solid 1px #fff;
-	float: right;
+	padding-top: 14px;
+	height: 232px;
 }
-.cta_button::before
+.contact_input::-webkit-input-placeholder
 {
-	display: block;
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #888888 !important;
+}
+.contact_input:-moz-placeholder
+{
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #888888 !important;
+}
+.contact_input::-moz-placeholder
+{
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #888888 !important;
+} 
+.contact_input:-ms-input-placeholder
+{ 
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #888888 !important;
+}
+.contact_input::input-placeholder
+{
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #888888 !important;
+}
+.contact_info_container
+{
+	max-width: 354px;
+	background: rgba(3,9,32,0.86);
+	padding-top: 53px;
+	padding-bottom: 84px;
+	padding-left: 41px;
+	padding-right: 15px;
+}
+.contact_info_container .logo_text
+{
+	font-size: 27px;
+}
+.contact_info_container .logo_sub
+{
+	font-size: 9px;
+	color: #bbbbbb;
+}
+.contact_info_container .logo_image div
+{
+	width: 47px;
+}
+.contact_info_list_container
+{
+	margin-top: 62px;
+}
+.contact_info_list
+{
+	width: 100%;
+	padding-right: 70px;
+	padding-left: 8px;
+}
+.contact_info_list li
+{
+	position: relative;
+}
+.contact_info_list li:not(:last-child)
+{
+	margin-bottom: 15px;
+}
+.contact_info_icon
+{
+	width: 24px;
+	height: 24px;
+}
+.contact_info_icon img
+{
+	max-width: 100%;
+}
+.contact_info_text
+{
+	margin-left: 25px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 2.14;
+}
+.contact_info_pin
+{
 	position: absolute;
-	top: 0;
+	bottom: -17px;
 	left: 0;
-	width: 200%;
+	width: 30px;
+	height: 17px;
+	overflow: hidden;
+}
+.contact_info_pin div
+{
+	width: 150%;
 	height: 100%;
-	content: '';
-	background-color: #4867c0;
-	background-image: linear-gradient(to right, #4867c0, #329fec, #4867c0);
-	background: #4867c0;
-	background: linear-gradient(to right, #4867c0, #329fec, #4867c0);
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
+	background: rgba(3,9,32,0.86);
+	transform-origin: bottom left;
+	transform: rotate(-30deg)
 }
 
 /*********************************
-7. Footer
+6. Footer
 *********************************/
 
 .footer
 {
 	width: 100%;
-	background: #fff;
+	background: #0c081d;	
 }
 .footer_content
 {
@@ -947,12 +1116,12 @@ section
 .footer_extra
 {
 	width: 100%;
-	background: #fff;
+	background: #050210;
 }
 .footer_extra_content
 {
 	width: 100%;
-	height: 66px;
+	height: 134px;
 }
 .footer_social_title
 {
@@ -1021,65 +1190,8 @@ section
 }
 .copyright
 {
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 500;
-	color: #4C69B9;
+	color: #bbbbbb;
 	margin-top: 7px;
-}
-
-.org-img {
-	height: 190px;
-	margin: 0 10px 0 0;
-}
-
-.org-divider {
-	margin-bottom: 20px;
-}
-
-figure {
-	padding: 5px 20px;
-}
-
-.organizer-h3 {
-	margin-bottom: 40px;
-}
-
-.program
-{
-	width: 100%;
-	background: #FFFFFF;
-}
-
-.program_content
-{
-	width: 100%;
-	padding: 0;
-	padding-left: 130px;
-	padding-right: 150px;
-	padding-top: 103px;
-	padding-bottom: 114px;
-}
-
-.program_block h1
-{
-	font-size: 26px;
-	font-weight: 500;
-}
-
-.program_block h2
-{
-	font-size: 22px;
-	font-weight: 500;
-	color:rgb(165, 165, 165)
-}
-
-.program_block h5
-{
-	font-size: 16px;
-	font-weight: 500;
-}
-
-.program_block_content
-{
-	margin-top: 20px;
 }

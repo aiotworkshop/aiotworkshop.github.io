@@ -16,6 +16,8 @@
 	<link rel="stylesheet" type="text/css" href="styles/page_styles.css">
 	<link rel="stylesheet" type="text/css" href="styles/page_responsive.css">
   <link rel="stylesheet" type="text/css" href="styles/custom.css" />
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/custom.js"></script>
   
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137231262-1"></script>
@@ -46,7 +48,7 @@
                 <div class="logo_text logo_text_not_ie">
                   The 3rd International Workshop on Artificial Intelligence of Things
                 </div>
-                <div class="logo_link">
+                <div class="logo_link_mobile">
                   <a href="https://www.kdd.org/kdd2020/" target="_new">In conjunction with the 26th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2020)</a>
                 </div>
                 <div class="logo_sub">
@@ -56,15 +58,11 @@
             </div>
           </a>
         </div>
-        <ul>
-          <li class="menu_item"><a href="index.html">Home</a></li>
-          <li class="menu_item"><a href="CFP.html">Call For Papers</a></li>
-          <li class="menu_item"><a href="organizers.html">Organizers</a></li>
-          <!-- <li class="menu_item"><a href="program.html">Program</a></li> -->
-          <!-- <li class="menu_item"><a href="keynote.html">Keynote</a></li> -->
-          <li class="menu_item"><a href="2019/index.html">KDD 2019</a></li>
-          <li class="menu_item"><a href="2020/index.html">AAAI 2020</a></li>
-        </ul>
+        
+        <!-- Navigation for Mobile -->
+        <div id="nav-mobile"></div>
+        <script src="js/components/nav-mobile.js"></script>
+
       </div>
     </div>
     <!-- Home -->
@@ -110,37 +108,10 @@
             </div>
           </div>
 
-          <div class="header_nav" id="header_nav_pin">
-            <div class="header_nav_inner">
-              <div class="header_nav_container">
-                <div class="container">
-                  <div class="row">
-                    <div class="col">
-                      <div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
-                        <nav class="main_nav">
-                          <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="CFP.html">Call For Papers</a></li>
-                            <li class="active"><a href="organizers.html">Organizers</a></li>
-                            <!-- <li><a href="program.html">Program</a></li> -->
-            							  <!-- <li><a href="keynote.html">Keynote</a></li> -->
-                            <li><a href="2019/index.html">KDD 2019</a></li>
-                            <li><a href="2020/index.html">AAAI 2020</a></li>
-                          </ul>
-                        </nav>
+          <!-- Navigation -->
+					<div id="nav"></div>
+          <script src="js/components/nav.js"></script>
 
-                        <div class="header_extra ml-auto">
-                          <div class="button header_button">
-                            <a href="http://www.cvent.com/events/kdd-2020/event-summary-eb9eeca9963443d18902dbe47190ea4c.aspx">Register</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </header>
 
@@ -150,12 +121,6 @@
             <div class="col">
               <div class="home_content d-flex flex-row align-items-end justify-content-start">
                 <div class="current_page">Organizers</div>
-                <div class="breadcrumbs ml-auto">
-                  <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li>Organizers</li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
@@ -613,17 +578,16 @@
     <div style="margin-bottom: 60px;"></div>
 
     <!-- Call to action -->
-
     <div class="cta">
-      <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/cta_1.jpg"
+      <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/speakers.jpg"
         data-speed="0.8"></div>
       <div class="container">
         <div class="row">
           <div class="col">
             <div class="cta_content text-center">
-              <div class="cta_title">Register now!</div>
+              <div class="cta_title">Need to find us?</div>
               <div class="button cta_button">
-                <a href="http://www.cvent.com/events/kdd-2020/event-summary-eb9eeca9963443d18902dbe47190ea4c.aspx">Register</a>
+                <a href="mailto:aiotworkshop@gmail.com">Contact Us</a>
               </div>
             </div>
           </div>
@@ -632,7 +596,6 @@
     </div>
 
     <!-- Footer -->
-
     <footer class="footer">
       <div class="footer_extra">
         <div class="container">
@@ -641,13 +604,15 @@
               <div
                 class="footer_extra_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-start justify-content-center">
                 <div class="footer_extra_right ml-lg-auto text-lg-right">
-                  <!-- <div class="footer_extra_links">
-                    <ul>
-                      <li><a href="contact.html">Contact us</a></li>
-                      <li><a href="#">Sitemap</a></li>
-                      <li><a href="#">Privacy</a></li>
-                    </ul>
-                  </div> -->
+                  <!--
+                <div class="footer_extra_links">
+                  <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Privacy</a></li>
+                  </ul>
+                </div>
+                -->
                   <div class="copyright">
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     Copyright &copy;
@@ -666,6 +631,7 @@
         </div>
       </div>
     </footer>
+
   </div>
 
   <script src="js/jquery-3.2.1.min.js"></script>
