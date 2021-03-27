@@ -7,7 +7,18 @@ document.getElementById('nav-mobile').innerHTML=`
     <li class="menu_item_mobile"><a href="organizers.html">Organizers</a></li>
     <li class="menu_item_mobile"><a href="program.html">Program</a></li>
     <!-- <li class="menu_item_mobile"><a href="keynote.html">Keynote</a></li> -->
-    <li class="menu_item_mobile"><a href="../2019/index.html">KDD 2019</a></li>
+    <li class="menu_item_mobile">
+        <div class="dropdown dropdown-mobile">
+            <div class="dropbtn">2020
+                <i class="fa fa-angle-down"></i>
+            </div>
+            <div class="dropdown-content">
+                <a href="../index.html">2021</a>
+                <a href="index.html">2020</a>
+                <a href="2019/index.html">2019</a>
+            </div>
+        </div> 
+    </li>
     <li class="menu_item_mobile"><a href="../2020/index.html">AAAI 2020</a></li>
 </ul>
 
