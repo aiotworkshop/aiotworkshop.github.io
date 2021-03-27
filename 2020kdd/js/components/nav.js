@@ -20,6 +20,8 @@ document.getElementById('nav').innerHTML=`
                                                 <i class="fa fa-angle-down"></i>
                                             </div>
                                             <div class="dropdown-content">
+                                                <a href="../index.html">KDD 2021</a>
+                                                <a href="../2020kdd/index.html">KDD 2020</a>
                                                 <a href="../2019/index.html">KDD 2019</a>
                                             </div>
                                         </div> 
