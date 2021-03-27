@@ -14,8 +14,17 @@ document.getElementById('nav').innerHTML=`
                                     <li id="papers"><a href="accepted-papers.html">Accepted Papers</a></li>
                                     <li id="organizers"><a href="organizers.html">Organizers</a></li>
                                     <li id="program"><a href="program.html">Program</a></li>
-                                    <!-- <li><a href="keynote.html">Keynote</a></li> -->
-                                    <li><a href="../2019/index.html">KDD 2019</a></li>
+                                    <li>
+                                        <div class="dropdown">
+                                            <div class="dropbtn">KDD 2020
+                                                <i class="fa fa-angle-down"></i>
+                                            </div>
+                                            <div class="dropdown-content">
+                                                <a href="../2019/index.html">KDD 2019</a>
+                                            </div>
+                                        </div> 
+                                    </li>
+
                                     <li><a href="../2020/index.html">AAAI 2020</a></li>
                                 </ul>
                             </nav>
