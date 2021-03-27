@@ -15,8 +15,8 @@ document.getElementById('nav').innerHTML=`
                                     <li id="organizers"><a href="organizers.html">Organizers</a></li>
                                     <li id="program"><a href="program.html">Program</a></li>
                                     <!-- <li><a href="keynote.html">Keynote</a></li> -->
-                                    <li><a href="2019/index.html">KDD 2019</a></li>
-                                    <li><a href="2020/index.html">AAAI 2020</a></li>
+                                    <li><a href="../2019/index.html">KDD 2019</a></li>
+                                    <li><a href="../2020/index.html">AAAI 2020</a></li>
                                 </ul>
                             </nav>
 
