@@ -7,8 +7,8 @@ document.getElementById('nav-mobile').innerHTML=`
     <li class="menu_item_mobile"><a href="organizers.html">Organizers</a></li>
     <li class="menu_item_mobile"><a href="program.html">Program</a></li>
     <!-- <li class="menu_item_mobile"><a href="keynote.html">Keynote</a></li> -->
-    <li class="menu_item_mobile"><a href="2019/index.html">KDD 2019</a></li>
-    <li class="menu_item_mobile"><a href="2020/index.html">AAAI 2020</a></li>
+    <li class="menu_item_mobile"><a href="../2019/index.html">KDD 2019</a></li>
+    <li class="menu_item_mobile"><a href="../2020/index.html">AAAI 2020</a></li>
 </ul>
 
 `;
