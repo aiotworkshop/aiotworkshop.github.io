@@ -679,13 +679,13 @@ section
 }
 .main_nav ul
 {
-	height: 26px;
+	height: 45px;
 }
 .main_nav ul li
 {
 	display: inline-block;
 	position: relative;
-	height: 100%;
+	height: 26px;
 }
 .main_nav ul li:not(:last-child)
 {
