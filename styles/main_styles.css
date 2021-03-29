@@ -261,7 +261,7 @@ section
 .parallax_background
 {
 	position: absolute;
-	top: 0px;
+	top: 100px;
 	left: 0;
 	width: 100%;
 	height: 100%;
@@ -698,7 +698,7 @@ section
 }
 .main_nav ul
 {
-	/*height: 45px;*/
+	height: 45px;
 }
 .main_nav ul li
 {

@@ -675,17 +675,17 @@ section
 }
 .main_nav
 {
-	/*height: 45px;*/
+	height: 45px;
 }
 .main_nav ul
 {
-	height: 45px;
+	height: 26px;
 }
 .main_nav ul li
 {
 	display: inline-block;
 	position: relative;
-	height: 26px;
+	height: 100%;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -797,7 +797,6 @@ section
 {
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 26px;
 	background-color: none;
 	background-image: none;
 	background: none;
