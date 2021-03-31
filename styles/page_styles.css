@@ -128,8 +128,10 @@ p a:active
 }
 p a:hover
 {
+	/*
 	color: #FFFFFF;
 	background: #ffa07f;
+	*/
 }
 p a:hover::after
 {
