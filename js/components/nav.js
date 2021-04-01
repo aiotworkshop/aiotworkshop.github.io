@@ -31,13 +31,11 @@ document.getElementById('nav').innerHTML=`
                                 </ul>
                             </nav>
 
-                            <!--
                             <div class="header_extra ml-auto">
                                 <div class="button header_button">
-                                <a href="http://www.cvent.com/events/kdd-2020/event-summary-eb9eeca9963443d18902dbe47190ea4c.aspx">Register</a>
+                                <a href="https://cmt3.research.microsoft.com/AIOT2021/Submission/Index">Submit</a>
                                 </div>
                             </div>
-                            -->
                             
                         </div>
                     </div>
