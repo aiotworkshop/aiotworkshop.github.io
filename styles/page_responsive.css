@@ -150,6 +150,10 @@
 	{
 		width: 49px;
 	}
+	.logo_image div img
+	{
+		width: 50px;
+	}
 	.logo_text
 	{
 		font-size: 18px;
