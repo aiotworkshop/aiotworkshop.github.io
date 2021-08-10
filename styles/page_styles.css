@@ -1031,7 +1031,7 @@ section
 
 .org-img {
 	height: 190px;
-	margin: 0 10px 0 0;
+	margin: 0;
 }
 
 .org-divider {
