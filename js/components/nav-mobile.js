@@ -9,11 +9,12 @@ document.getElementById('nav-mobile').innerHTML=`
     <!-- <li class="menu_item_mobile"><a href="keynote.html">Keynote</a></li> -->
     <li class="menu_item_mobile">
         <div class="dropdown dropdown-mobile">
-            <div class="dropbtn">KDD 2021
+            <div class="dropbtn">KDD 2022
                 <i class="fa fa-angle-down"></i>
             </div>
             <div class="dropdown-content">
-                <a href="index.html">KDD 2021</a>
+                <a href="index.html">KDD 2022</a>
+                <a href="2021/index.html">KDD 2021</a>
                 <a href="2020kdd/index.html">KDD 2020</a>
                 <a href="2019/index.html">KDD 2019</a>
             </div>
