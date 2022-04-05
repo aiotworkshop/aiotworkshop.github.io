@@ -28,7 +28,7 @@ document.getElementById('nav').innerHTML=`
                                             </div>
                                         </div> 
                                     </li>
-                                    <li><a href="2020/index.html">AAAI 2020</a></li>
+                                    <li><a href="../2020/index.html">AAAI 2020</a></li>
                                 </ul>
                             </nav>
 
