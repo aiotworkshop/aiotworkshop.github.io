@@ -13,13 +13,13 @@ document.getElementById('banner').innerHTML=`
                                 </div>
                                 <div class="logo_content">
                                     <div id="logo_text" class="logo_text logo_text_not_ie">
-                                        The 4th International Workshop on Artificial Intelligence of Things
+                                        The 5th International Workshop on Artificial Intelligence of Things
                                     </div>
                                     <div class="logo_link">
-                                        <a href="https://www.kdd.org/kdd2021/" target="_new">In conjunction with the 27th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2021)</a>
+                                        <a href="https://www.kdd.org/kdd2022/" target="_new">In conjunction with the 28th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2022)</a>
                                     </div>
                                     <div class="logo_sub">
-                                        Virtual conference, Aug. 15th, 2021
+                                        Washington DC, USA, Aug. 14th-18th(TBD), 2022
                                     </div>
                                 </div>
                             </div>

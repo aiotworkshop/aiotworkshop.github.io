@@ -13,15 +13,16 @@ document.getElementById('nav').innerHTML=`
                                     <li id="cfp"><a href="CFP.html">Call For Papers</a></li>
                                     <!-- <li id="papers"><a href="accepted-papers.html">Accepted Papers</a></li> -->
                                     <li id="organizers"><a href="organizers.html">Organizers</a></li>
-                                    <li id="program"><a href="program.html">Program</a></li>
+                                    <!-- <li id="program"><a href="program.html">Program</a></li> -->
                                     <!-- <li><a href="keynote.html">Keynote</a></li> -->
                                     <li>
                                         <div class="dropdown">
-                                            <div class="dropbtn">KDD 2021
+                                            <div class="dropbtn">KDD 2022
                                                 <i class="fa fa-angle-down"></i>
                                             </div>
                                             <div class="dropdown-content">
-                                                <a href="index.html">KDD 2021</a>
+                                                <a href="index.html">KDD 2022</a>
+                                                <a href="2021/index.html">KDD 2021</a>
                                                 <a href="2020kdd/index.html">KDD 2020</a>
                                                 <a href="2019/index.html">KDD 2019</a>
                                             </div>
@@ -33,7 +34,7 @@ document.getElementById('nav').innerHTML=`
 
                             <div class="header_extra ml-auto">
                                 <div class="button header_button">
-                                <a href="https://kdd.org/kdd2021/attending">Register</a>
+                                <a href="https://cmt3.research.microsoft.com/AIOT2022/Submission/Index">Submit</a>
                                 </div>
                             </div>
                             
