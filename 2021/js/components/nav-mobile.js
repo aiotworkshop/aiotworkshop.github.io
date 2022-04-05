@@ -20,7 +20,7 @@ document.getElementById('nav-mobile').innerHTML=`
             </div>
         </div> 
     </li>
-    <li class="menu_item_mobile"><a href="2020/index.html">AAAI 2020</a></li>
+    <li class="menu_item_mobile"><a href="../2020/index.html">AAAI 2020</a></li>
 </ul>
 
 `;
