@@ -34,7 +34,7 @@ document.getElementById('nav').innerHTML=`
 
                             <div class="header_extra ml-auto">
                                 <div class="button header_button">
-                                <a href="https://cmt3.research.microsoft.com/AIOT2022/Submission/Index">Submit</a>
+                                <a href="https://kdd.org/kdd2022/registration.html">Register</a>
                                 </div>
                             </div>
                             
